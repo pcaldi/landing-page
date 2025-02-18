@@ -51,11 +51,11 @@ export function About() {
               Qualidade é a nossa prioridade</li>
           </ul>
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col gap-2 lg:flex-row ">
             <a
               href={`https://wa.me/5541999212575?text=Olá, vim pelo site e gostaria de mais informações.`}
               target="_blank"
-              className="bg-green-500 px-4 py-2 text-white rounded-md hover:bg-green-600 font-semibold flex items-center justify-center w-fit gap-2"
+              className="bg-green-500 px-4 py-2 text-white rounded-md hover:bg-green-600 font-semibold flex items-center justify-center w-fit gap-2 "
             >
               <WhatsappLogo className="w-5 h-5" />
               Contato via WhatsApp
@@ -66,8 +66,8 @@ export function About() {
               target="_blank"
               className="bg-teal-500 px-4 py-2 text-white rounded-md hover:bg-teal-600 font-semibold flex items-center justify-center w-fit gap-2"
             >
-              Nosso Endereço
               <MapPin className="w-5 h-5" />
+              Nosso Endereço
             </a>
           </div>
 
