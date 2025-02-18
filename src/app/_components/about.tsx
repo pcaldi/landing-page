@@ -33,7 +33,7 @@ export function About() {
         </div>
 
         <div className="space-y-6">
-          <h2 className="font-bold text-4xl lg:5xl">SOBRE</h2>
+          <h2 className="font-bold text-4xl lg:5xl">Sobre</h2>
 
           <p>
             A Nossa clínica veterinária que atende as pessoas de quatro patas. Temos um amplo estoque de produtos e consultas veterinárias, focando em cuidar e preservar a saúde de nossos clientes.
@@ -53,14 +53,17 @@ export function About() {
 
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href={`https://wa.me/5541999212575?text=Olá, vim pelo site e gostaria de mais informações.`}
+              target="_blank"
               className="bg-green-500 px-4 py-2 text-white rounded-md hover:bg-green-600 font-semibold flex items-center justify-center w-fit gap-2"
             >
               <WhatsappLogo className="w-5 h-5" />
               Contato via WhatsApp
             </a>
 
-            <a href="#"
+            <a
+              href={`https://www.google.com.br/maps/place/R.+Nossa+Sra.+Aparecida+-+Vila+Sao+Bernardo,+Alm.+Tamandar%C3%A9+-+PR,+83503-320/@-25.3358808,-49.2811849,19z/data=!3m1!4b1!4m6!3m5!1s0x94dcddfe537d9b8b:0x616fb356886acadf!8m2!3d-25.335882!4d-49.2805412!16s%2Fg%2F1ymtn5mh1?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D`}
+              target="_blank"
               className="bg-teal-500 px-4 py-2 text-white rounded-md hover:bg-teal-600 font-semibold flex items-center justify-center w-fit gap-2"
             >
               Nosso Endereço

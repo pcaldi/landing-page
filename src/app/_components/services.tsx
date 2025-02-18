@@ -93,7 +93,8 @@ export function Services() {
 
 
                             <a
-                              href="#"
+                              href={`https://wa.me/5541999212575?text=${item.linkText}`}
+                              target="_blank"
                               className="flex items-center gap-2 text-sm
                               hover:bg-green-500 rounded-md hover:scale-95 duration-300 px-2 py-1"
                             >

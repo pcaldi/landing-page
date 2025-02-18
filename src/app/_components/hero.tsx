@@ -32,7 +32,8 @@ export function Hero() {
 
             <div className="flex">
               <a
-                href="#"
+                href={`https://wa.me/5541999212575?text=Olá, vim pelo site e gostaria de mais informações.`}
+                target="_blank"
                 className="bg-green-500 px-5 py-2 rounded-md hover:bg-green-600 font-semibold flex items-center justify-center w-fit gap-2"
               >
                 <WhatsappLogo className="w-5 h-5" />
