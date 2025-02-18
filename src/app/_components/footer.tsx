@@ -106,9 +106,18 @@ export function Footer() {
                 <YoutubeLogo className="w-8 h-8" />
               </a>
             </div>
+
+
           </div>
 
+
         </footer>
+
+        <div>
+          <p className="flex text-center items-center justify-center">
+            &copy; Pet Shop. Todos os direitos reservados.
+          </p>
+        </div>
       </div>
 
     </section>
