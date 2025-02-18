@@ -114,8 +114,14 @@ export function Footer() {
         </footer>
 
         <div>
-          <p className="flex text-center items-center justify-center">
-            &copy; Pet Shop. Todos os direitos reservados.
+          <p className="flex text-center items-center gap-2 justify-center hover:scale-110 duration-300">
+            Desenvolvido &copy;
+            <a
+              href="mailto:pcaldi@gmail.com"
+              target="_blank"
+              className="font-semibold "
+            >
+              Paulo Ricardo Caldi</a>
           </p>
         </div>
       </div>

@@ -25,7 +25,10 @@ export function Hero() {
 
           <div className="space-y-6">
 
-            <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10">Seu pet merece cuidado. cuidado e atenção especial</h1>
+            <h1
+              className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10"
+              data-aos="fade-up"
+            >Seu pet merece cuidado. cuidado e atenção especial</h1>
             <p className="lg:text-lg">
               Oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amigo de quatro patas.
             </p>

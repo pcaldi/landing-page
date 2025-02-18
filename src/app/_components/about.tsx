@@ -10,7 +10,7 @@ export function About() {
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-8">
 
         <div className="relative">
-          <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
+          <div className="relative w-full h-[400px] rounded-lg overflow-hidden" data-aos="flip-left">
             <Image
               src={imgAbout1}
               alt="Foto do amigo de quatro patas"
@@ -20,13 +20,17 @@ export function About() {
             />
           </div>
 
-          <div className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg overflow-hidden border-white border-4">
+          <div
+            className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg overflow-hidden border-white border-4"
+            data-aos="flip-right"
+          >
             <Image
               src={imgAbout2}
               alt="Foto do amigo de quatro patas"
               className="object-cover "
               layout="fill"
               quality={100}
+
             />
           </div>
 
@@ -56,6 +60,7 @@ export function About() {
               href={`https://wa.me/5541999212575?text=Olá, vim pelo site e gostaria de mais informações.`}
               target="_blank"
               className="bg-green-500 px-4 py-2 text-white rounded-md hover:bg-green-600 font-semibold flex items-center justify-center w-fit gap-2 "
+              data-aos="flip-left"
             >
               <WhatsappLogo className="w-5 h-5" />
               Contato via WhatsApp
@@ -65,6 +70,7 @@ export function About() {
               href={`https://www.google.com.br/maps/place/R.+Nossa+Sra.+Aparecida+-+Vila+Sao+Bernardo,+Alm.+Tamandar%C3%A9+-+PR,+83503-320/@-25.3358808,-49.2811849,19z/data=!3m1!4b1!4m6!3m5!1s0x94dcddfe537d9b8b:0x616fb356886acadf!8m2!3d-25.335882!4d-49.2805412!16s%2Fg%2F1ymtn5mh1?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D`}
               target="_blank"
               className="bg-teal-500 px-4 py-2 text-white rounded-md hover:bg-teal-600 font-semibold flex items-center justify-center w-fit gap-2"
+              data-aos="flip-left"
             >
               <MapPin className="w-5 h-5" />
               Nosso Endereço
